@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CornHub -films</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />    
+    <link >
+
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="/">Home</a></li>
+        <li><a id="selected" href="/films">Films</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/about">About</a></li>
+        <li style="float: center;"><a href="">CornHub</a></li>
+        <li style="float: right;"><a href="http://www.amogus.org">amogus</a></li>
+
+    </ul>
+
+    <ul class="films">
+        <li>
+            <video autoplay="autoplay" controls="controls" preload="preload">
+                <source type="video/mp4" src="{{ url_for('static', filename=uploads/koksu5gram.mp4) }}" ></source>
+            </video>
+        </li>
+    </ul>
+
+
+</body>
+</html>

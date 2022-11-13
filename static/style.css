@@ -1,0 +1,82 @@
+body
+{
+    background-color: rgba(18, 18, 18, 0.8);
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logform
+{
+    background-image: url("https://fotografzkrakowa.files.wordpress.com/2014/09/20140829_010.jpg");
+    background-color: rgba(18, 18, 18, 0.5;
+    /* background: linear-gradient(to top left, #222222, #00FFFF); */
+    color: #ffffff;
+}
+
+a
+{
+    color: #00FFA0;
+    text-shadow: 0 0 5px #00FFA0;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #00FFFF;
+    text-shadow: 0 0 9px #00FFFF;
+}
+
+.nav
+{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+    /* padding-right: 5px; */
+    padding-bottom: 5px;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 9px;
+    background-color: rgb(24, 24, 23);
+}
+
+.nav li
+{
+    padding-right: 5px;
+    display: inline;
+    float: left;
+}
+
+.nav li a
+{
+    display: block;
+    color: white;
+    size: 20;
+    text-align: center;
+    padding: 14px 16px;
+    text-shadow: none;
+    text-decoration: none;
+    /* padding: 8px; */
+    background-color: rgb(24, 24, 23);
+    
+}
+
+#selected
+{
+    background-color:aqua;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 0 0 5px #FFFFFF;
+    box-shadow: 0 0 5px #00FFFF;
+}
+
+li a:hover
+{
+    /* background-color:aqua; */
+    border-radius: 5px;
+    color: white;
+    text-shadow: 0 0 5px #FFFFFF;
+    box-shadow: 0 0 5px #00FFFF;
+    
+}
