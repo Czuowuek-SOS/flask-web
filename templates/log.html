@@ -9,8 +9,82 @@
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />    
 
+    <style>
+        body{
+            /* background-image: url("{{ url_for('static', filename='2560x1440-00.jpg') }}"); */
+            background: linear-gradient(to top left, #4A148C, #C51162);
+            background-repeat: cover;
+            background-repeat: none;
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 97.5vh;
+        }
+
+        .formContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            /* background-color: rgba(28, 28, 28, 0.8); */
+            background: linear-gradient(to top left, rgba(28, 28, 28, 0.6), rgba(28, 28, 28, 0.05));
+            border-radius: 15px;
+
+            height: 80vh;
+            width: 20vw;
+
+        }
+
+        input{
+            margin-bottom: 5vh;
+            border-right: none;
+            border-top: none;
+            border-left: none;
+            background-color: transparent;
+            outline: none;
+            color: white;
+            caret-color: white;
+        }
+
+        input[type=text]::placeholder {
+            text-align: center;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        input[type=submit] {
+            background: rgba(255,255,255, 0.2);
+            width: 100%;
+            padding: 2vh;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px 4px;
+        }
+
+        input[type=submit]:hover {
+            background-color: rgba(255,255,255, 0.2);
+            box-shadow: 0 0 5px white;
+        }
+    </style>
+
 </head>
-<body class="logform">
-    <H1 style="position:absolute(center)"> Sign In</H1>
+<body]>
+    <!-- <H1 style="position:absolute(center)"> Sign In</H1> -->
+    <div class="formContainer">
+        <h1>Sign Up</h1>
+        <form>
+            <input type="text" id="Email" name="Email" placeholder="Email" onfocus="this.placeholder=''" onblur="this.placeholder='Email'"> <br>
+            <input type="text" id="Password" name="Password" placeholder="Password" onfocus="this.placeholder=''" onblur="this.placeholder='Password'"> <br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+    
+
+    
 </body>
 </html>

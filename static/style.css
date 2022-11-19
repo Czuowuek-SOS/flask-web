@@ -4,15 +4,19 @@ body
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+
+    /* height: 100vh; */
+    height: 100%;
+
 }
 
-.logform
+/* #logform-body
 {
-    background-image: url("https://fotografzkrakowa.files.wordpress.com/2014/09/20140829_010.jpg");
-    background-color: rgba(18, 18, 18, 0.5;
-    /* background: linear-gradient(to top left, #222222, #00FFFF); */
+    background-image: url("https://wallpapercave.com/wp/fRYYDpF.jpg");
+    background: linear-gradient(to top right, #00FF70, #00FFFF);
+    background-color: rgba(18, 18, 18, 0.5);
     color: #ffffff;
-}
+} */
 
 a
 {
