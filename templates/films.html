@@ -11,7 +11,18 @@
     
 
     <style>
+        .film-container
+        {
+            display: flex;
 
+            background-color: rgb(22, 24, 29);
+            border-radius: 15px;
+            
+            align-items: left;
+
+            width: 85%;
+            height: 80vh;
+        }
 
     </style>
 
@@ -23,23 +34,19 @@
         <li><a href="/contact">Contact</a></li>
         <li><a href="/about">About</a></li>
         <li style="float: center;"><a href="">CornHub</a></li>
-        <li style="float: right;"><a href="http://www.amogus.org">amogus</a></li>
+        <li style="float: right;"><a href="/login">amogus</a></li>
 
     </ul>
 
-    <div>
-
+        <h1>sex</h1>
+    <div class="films-container">
+        <video width="420" height="240" controls>
+            <source src="{{url_for('static', filename='uploads/koksu5gram.mp4')}}" type="video/mp4">
+        </video>
 
     </div>
 
-<!-- 
-    <ul class="films">
-        <li>
-            <video autoplay="autoplay" controls="controls" preload="preload">
-                <source type="video/mp4" src="{{ url_for('static', filename=uploads/koksu5gram.mp4) }}" ></source>
-            </video>
-        </li>
-    </ul> -->
+
 
 
 </body>
