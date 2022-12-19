@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>CornHub -films</title>
+    <title>CornHub - films</title>
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />    
     
@@ -19,9 +19,21 @@
             border-radius: 15px;
             
             align-items: left;
+            float: left;
 
-            width: 85%;
-            height: 80vh;
+
+            padding: 14px 16px;
+
+            /* width: 85%;
+            height: 80vh; */
+        }
+
+        video
+        {
+            border-radius: 15px;
+            padding: 10px 10px;
+            background-color: black;
+            /* alin */
         }
 
     </style>
@@ -42,6 +54,12 @@
     <div class="films-container">
         <video width="420" height="240" controls>
             <source src="{{url_for('static', filename='uploads/koksu5gram.mp4')}}" type="video/mp4">
+        </video>
+        <video width="420" height="240" controls>
+            <source src="{{url_for('static', filename='uploads/KingaDumda_Dyskont.mp4')}}" type="video/mp4">
+        </video>
+        <video width="420" height="240" controls>
+            <source src="{{url_for('static', filename='uploads/Ordżazm.mp4')}}" type="video/mp4">
         </video>
 
     </div>

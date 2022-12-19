@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corhub - about</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />    
+
+    <style>
+        .info
+        {
+            justify-content: left;
+            /* align-items: left; */
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/films">Films</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a id="selected" href="/about">About</a></li>
+        <li style="float: center;"><a href="">CornHub</a></li>
+        <li style="float: right;"><a href="/login">amogus</a></li>
+
+    </ul>
+
+    <div class="info">
+        <p>Python 3.10.0</p> <br>
+        <p>Flask  2.2.2</p> <br>
+    </div>
+</body>
+</html>
